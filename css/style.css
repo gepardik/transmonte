@@ -532,18 +532,21 @@ a:hover{
 
 #transmonte-info{
 	position: relative;
-	padding-left: 507px;
-	padding-top: 28px;
+	padding-left: 64px;
 	padding-bottom: 4px;
 	color: #5c5c5c;
 }
 
+.contact-top {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 42px;
+	margin-left: 54px;
+}
+
 #transmonte-map{
 	padding: 4px;
-	position: absolute;
-	top: 68px;
-	left: 54px;
-	width: 350px;
+	width: 550px;
 	height: 315px;
 	background: #c6c6c6;
 }
@@ -574,10 +577,73 @@ a:hover{
 
 #info-header{
 	font-size: 26px;
-	width: 255px;
 	border-bottom: 1px dotted #b6b6b6;
 }
 
-#info-list{
-	margin-top: 104px;
+#info-list table img {
+	height: 24px;
+	margin-right: 8px;
+}
+
+#info-list table td span {
+	display: flex;
+	align-items: center;
+}
+
+#info-list table td a:hover {
+	color: #FED90A;
+}
+
+#info-list table td strong {
+	color: black;
+	font-size: 24px;
+}
+
+form {
+	margin-top: 24px;
+	display: grid;
+	width: 500px;
+}
+
+form label,
+form button {
+	margin-top: 12px;
+}
+
+form input,
+form textarea,
+form select {
+	padding: 6px;
+	border-radius: 3px;
+	border: 1px solid #C6C6C6;
+	font-size: 14px;
+}
+
+form textarea {
+	height: 100px;
+}
+
+form button {
+	width: 150px;
+	border-radius: 3px;
+	border: none;
+	padding: 12px 0;
+	font-size: 16px;
+	background-color: #FED90A;
+	transition: all 500ms ease;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #1c1c1f;
+	color: #FED90A;
+}
+
+#info-list table {
+	margin-top: 56px;
+}
+
+#info-list table td{
+	padding: 12px 56px 12px 0;
+	white-space: nowrap;
 }

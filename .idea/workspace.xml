@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad6b38ee-3477-4ba3-aa64-7c1f80574159" name="Changes" comment="" />
+    <list default="true" id="ad6b38ee-3477-4ba3-aa64-7c1f80574159" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/icons/door.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus/contact.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,12 +51,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\transmonte\images\icons" />
       <recent name="C:\xampp\htdocs\transmonte" />
       <recent name="C:\xampp\htdocs\transmonte\images" />
     </key>
@@ -68,6 +77,7 @@
       <workItem from="1641912216059" duration="14460000" />
       <workItem from="1641968760575" duration="12287000" />
       <workItem from="1642059613140" duration="1089000" />
+      <workItem from="1642060766584" duration="6081000" />
     </task>
     <servers />
   </component>

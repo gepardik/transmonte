@@ -7,6 +7,6 @@
    if ( mail($to_email, $subject, $body, $headers)) {
       echo("Email successfully sent to $to_email...");
    } else {
-      echo("Email sending failed...");
+      echo("Email sending failed....");
    }
-?>
+?

@@ -32,43 +32,54 @@
 					Kontakt
 					<div class="square"></div><div class="square yellow"></div>
 				</div>
-				<div id="transmonte-info">
-					<div id="info-header">Info<br />ja tellimine</div>
-					<div id="info-list">
-						<table>
-							<tr>
-								<td><ul><li class="lime"><span class="black">Firma nimi:</span></li></ul></td>
-								<td>TRANSMONTE OÜ</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">Reg. kood:</span></li></ul></td>
-								<td>12226057</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">KMKR EE:</span></li></ul></td>
-								<td>101536198</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">Tegevusluba nr:</span></li></ul></td>
-								<td>RVTL001491</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">Aadress:</span></li></ul></td>
-								<td>Betooni 30, Tallinn 11415</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">E - mail:</span></li></ul></td>
-								<td>transmonteou@gmail.com</td>
-							</tr>
-							<tr>
-								<td><ul><li class="lime"><span class="black">Telefon:</span></li></ul></td>
-								<td>+ (372) 5035090</td>
-							</tr>
-						</table>
+				<div class="contact-top">
+					<div id="transmonte-map">
+						<iframe width="550" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ee/maps?f=q&amp;source=s_q&amp;hl=et&amp;geocode=&amp;q=tallinn,+betooni+30&amp;aq=&amp;sll=59.471693,24.738241&amp;sspn=0.569925,2.091522&amp;ie=UTF8&amp;hq=&amp;hnear=Betooni+30,+11415+Tallinn&amp;t=m&amp;z=14&amp;ll=59.42776,24.876219&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ee/maps?f=q&amp;source=embed&amp;hl=et&amp;geocode=&amp;q=tallinn,+betooni+30&amp;aq=&amp;sll=59.471693,24.738241&amp;sspn=0.569925,2.091522&amp;ie=UTF8&amp;hq=&amp;hnear=Betooni+30,+11415+Tallinn&amp;t=m&amp;z=14&amp;ll=59.42776,24.876219" style="color:#0000FF;text-align:left" target="_blank">Vaata suuremat kaarti</a></small>						<div id="info-list">
+							<table>
+								<tr>
+									<td><strong>Kontakt</strong></td>
+									<td><span><img src="../images/icons/mail.svg" /> <a href="mailto:transmonteou@gmail.com">transmonteou@gmail.com</a></span></td>
+								</tr>
+								<tr>
+									<td>OÜ Transmonte</td>
+									<td><span><img src="../images/icons/phone.svg" /> +372 5035090</span></td>
+								</tr>
+								<tr>
+									<td>Reg: 12226057</td>
+									<td><span><img src="../images/icons/door.svg" /> E-P 08:00 - 18:00 või (aeg kokkuleppel)</span></td>
+								</tr>
+								<tr>
+									<td>KMKR nr: EE101536198</td>
+									<td><span><img src="../images/icons/location.svg" /> Betooni 30, Tallinn</span></td>
+								</tr>
+							</table>
+						</div>
 					</div>
-				</div>
-				<div id="transmonte-map">
-					<iframe width="350" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ee/maps?f=q&amp;source=s_q&amp;hl=et&amp;geocode=&amp;q=tallinn,+betooni+30&amp;aq=&amp;sll=59.471693,24.738241&amp;sspn=0.569925,2.091522&amp;ie=UTF8&amp;hq=&amp;hnear=Betooni+30,+11415+Tallinn&amp;t=m&amp;z=14&amp;ll=59.42776,24.876219&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ee/maps?f=q&amp;source=embed&amp;hl=et&amp;geocode=&amp;q=tallinn,+betooni+30&amp;aq=&amp;sll=59.471693,24.738241&amp;sspn=0.569925,2.091522&amp;ie=UTF8&amp;hq=&amp;hnear=Betooni+30,+11415+Tallinn&amp;t=m&amp;z=14&amp;ll=59.42776,24.876219" style="color:#0000FF;text-align:left" target="_blank">Vaata suuremat kaarti</a></small>
+					<div id="transmonte-info">
+						<div id="info-header">Saada päring</div>
+						<form action="#" method="post" enctype="text/plain" >
+							<label for="Name">Nimi<span class="lime">*</span>: </label><input type="text" name="Name" id="Name">
+							<label for="Email">Email<span class="lime">*</span>: </label><input type="text" name="Email" id="Email">
+							<label for="Phone">Telefon<span class="lime">*</span>: </label><input type="text" name="Phone" id="Phone">
+							<label for="Size">Konteineri suurus: </label>
+							<select name="Size" id="Size">
+								<option value="12m3">12м<sup>3</sup></option>
+								<option value="15m3">15м<sup>3</sup></option>
+								<option value="20m3">20м<sup>3</sup></option>
+								<option value="30m3">30м<sup>3</sup></option>
+							</select>
+							<label for="Type"><b>Prügi tüüp:</b> </label><select name="Type" id="Type">
+							<option value="Segaprügi">Segaprügi</option>
+							<option value="Kivi, Betoon, Tellis">Kivi, Betoon, Tellis</option>
+							<option value="Eelsorteeritud puit">Eelsorteeritud puit</option>
+							<option value="Teine">Teine</option>
+						</select>
+							<label for="Topic">Teema: </label><input type="text" name="Topic" id="Topic">
+							<label for="Message">Teie päring: </label><textarea name="message" id="Message"></textarea>
+							<button id="submit-button" onclick="sendData()">Saada</button>
+						</form>
+
+					</div>
 				</div>
 			</div>
 		</div>

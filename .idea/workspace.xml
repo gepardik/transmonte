@@ -43,12 +43,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\transmonte" />
       <recent name="C:\xampp\htdocs\transmonte\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +67,7 @@
       <workItem from="1641835913759" duration="2080000" />
       <workItem from="1641912216059" duration="14460000" />
       <workItem from="1641968760575" duration="12287000" />
-      <workItem from="1642059613140" duration="1000000" />
+      <workItem from="1642059613140" duration="1089000" />
     </task>
     <servers />
   </component>
